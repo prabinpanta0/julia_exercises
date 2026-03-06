@@ -1,4 +1,4 @@
-function estimate_pi(n)
+function estimate_pi(n::Int64)
 	inside = 0
 
 	for i in 1:n

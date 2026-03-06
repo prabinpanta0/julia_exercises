@@ -1,4 +1,4 @@
-function has_target_sum(numbers, target)
+function has_target_sum(numbers::Array, target::Int64)
     for i in 1:length(numbers)
         for j in (i + 1): length(numbers)
            if numbers[i] + numbers[j] == target

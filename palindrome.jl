@@ -1,4 +1,4 @@
-function is_palindrome(word)
+function is_palindrome(word::String)
     word = lowercase(word);
     reverse_word = reverse(word);
 

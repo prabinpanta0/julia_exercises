@@ -1,4 +1,4 @@
-function most_frequent(list)
+function most_frequent(list::Array)
     winner = 0
     max_count = 0
 
