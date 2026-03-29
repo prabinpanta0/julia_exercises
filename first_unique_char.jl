@@ -17,6 +17,6 @@ function first_unique_char(s::String)
     return -1
 end
 
-println(first_unique_char("leetcode"))
-println(first_unique_char("lovejulia"))
-println(first_unique_char("aabb"))
+println(first_unique_char("aabbccddeff")) # e is at 9
+println(first_unique_char("aabbcddeeff")) # c is at 5
+println(first_unique_char("aabb"))        # -1
